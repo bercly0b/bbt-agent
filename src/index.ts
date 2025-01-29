@@ -1,3 +1,4 @@
+import './console-interceptor.ts';
 import { DirectClient } from "@elizaos/client-direct";
 import {
   AgentRuntime,
