@@ -1,7 +1,7 @@
 {
   "name": "BoobaTee",
-  "clients": ["twitter"],
-  "modelProvider": "openrouter",
+  "clients": ["telegram", "twitter"],
+  "modelProvider": "openai",
   "settings": {
     "secrets": {},
     "voice": {
@@ -182,5 +182,14 @@
       }
     ]
   ],
-  "people": []
+  "people": [],
+  "clientConfig": {
+    "telegram": {
+        "shouldIgnoreBotMessages": true,
+        "shouldIgnoreDirectMessages": true,
+        "shouldRespondOnlyToMentions": false,
+        "shouldOnlyJoinInAllowedGroups": true,
+        "allowedGroupIds": ["-1002346744319", "-1002487004856", "-1002401508665"]
+    }
+  }
 }
