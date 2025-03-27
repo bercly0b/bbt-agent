@@ -1,7 +1,7 @@
 {
   "name": "BoobaTee",
   "clients": ["telegram", "twitter"],
-  "modelProvider": "openai",
+  "modelProvider": "openrouter",
   "settings": {
     "secrets": {},
     "voice": {
